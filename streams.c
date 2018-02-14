@@ -270,7 +270,7 @@ void	node_mark_neighbors(graph* g, node* origin_node)
 		current_edge = current_edge->next;
 	} 
 
-	/* Mark all neigative neighbors */
+	/* Mark all negative neighbors */
 
 	current_node = g->nodes;
 
